@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="#">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" placeholder="first name" required>
+        <br>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" placeholder="last name">
+        <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" minlength="5" maxlength="50" placeholder="age">
+
+        <br>
+        <button>Submit</button>
+    </form>
+
+
+    <br>
+    <br>
+    <hr>
+
+    <h2>Contact Us</h2>
+
+    <form action="#">
+        <label for="fullName">Full Name: </label>
+        <input type="text" id="fullname" placeholder="full name" name="username">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="useremail" placeholder="email" id="email">
+        <br>
+        <label for="phoneNumber">Phone Number: </label>
+        <input type="tel" name="userNumber" id="phoneNumber" placeholder="phone number">
+        <br>
+
+        <label for="password">Password :</label>
+        <input type="password" name="passsword" id="password">
+        <br>
+        <label for="message">Message :</label>
+        <textarea name="messagebox" id="message"></textarea>
+
+        <br>
+        <button>Send</button>
+    </form>
+
+    <br>
+    <br>
+    <h2>User Registration</h2>
+
+    <form action="#">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username" placeholder="username">
+        <br>
+        <label for="eamil">Email :</label>
+        <input type="email" name="email" id="email" placeholder="email">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password">
+        <br>
+        <label>Gender:</label>
+        <input type="radio" name="male" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <br>
+        <input type="checkbox" name="check" id="check">
+        <label for="check">I agree to the terms and conditions</label>
+        <br>
+        <button>Register</button>
+
+    </form>
+</body>
+</html>
